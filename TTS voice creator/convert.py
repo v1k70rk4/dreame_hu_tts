@@ -6,25 +6,29 @@ import sys
 import shutil
 import glob
 
+# Hangok listája
+voice_options = ["Tamas", "Noemi", "Jenny", "Ryan"]
+
 # Paraméterek ellenőrzése és kérés, ha szükséges
 if len(sys.argv) > 1:
-    gender = sys.argv[1].lower()
+    voice = sys.argv[1].capitalize()
 else:
-    gender = input("Kérem adja meg a nemet (male/female): ").lower()
+    voice = input(f"Kérlek válassz egy hangot ({'/'.join(voice_options)}): ").capitalize()
 
-# Ellenőrizzük, hogy a megadott nem helyes-e
-if gender not in ["male", "female"]:
-    raise ValueError("Érvénytelen nem. Kérem válasszon 'male' vagy 'female' közül.")
+# Ellenőrizzük, hogy a megadott hang helyes-e
+if voice not in voice_options:
+    raise ValueError(f"Érvénytelen hang. Kérlek válassz a következők közül: {', '.join(voice_options)}.")
 
 current_directory = os.getcwd()
-input_folder = os.path.join(current_directory, gender)
-output_folder = os.path.join(current_directory, f'{gender}-ogg')
+input_folder = os.path.join(current_directory, voice.lower())
+output_folder = os.path.join(current_directory, f'{voice.lower()}-ogg')
 sound_ogg_folder = os.path.join(current_directory, 'sound-ogg')
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 # WAV fájlok feldolgozása
+
 for filename in os.listdir(input_folder):
     if filename.endswith('.wav'):
         wav_file = os.path.join(input_folder, filename)
@@ -34,7 +38,7 @@ for filename in os.listdir(input_folder):
         subprocess.run([
             "ffmpeg",
             "-i", wav_file,
-            "-filter:a", "loudnorm=I=-5:LRA=1:dual_mono=true:tp=-1",
+            "-filter:a", "speechnorm=p=0.95:e=2.0:c=2.0:t=0.0:r=0.001",
             tmp_file
         ])
 
@@ -47,7 +51,7 @@ for filename in os.listdir(input_folder):
         ])
 
         os.remove(tmp_file)
-
+        
 # sound-ogg tartalmának másolása
 for filename in os.listdir(sound_ogg_folder):
     source_file = os.path.join(sound_ogg_folder, filename)
@@ -59,7 +63,7 @@ for filepath in glob.glob(os.path.join(output_folder, 's*.ogg')):
     os.remove(filepath)
 
 # Tömörítés tar.gz formátumba
-tar_gz_filename = os.path.join(current_directory, f'{gender}-ogg.tar.gz')
+tar_gz_filename = os.path.join(current_directory, f'{voice.lower()}-ogg.tar.gz')
 with tarfile.open(tar_gz_filename, "w:gz") as tar:
     for filename in os.listdir(output_folder):
         tar.add(os.path.join(output_folder, filename), arcname=filename)

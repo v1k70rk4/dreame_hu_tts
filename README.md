@@ -2,27 +2,36 @@
 ## Magyar  
 _The English description can be found below._
 
-vettem egy Dreame porszívót és magyar nyelvet csináltam hozzá, mert az jó :)
-
-A Bing TTS-ét használtam, mert ennek a legjobb a magyar hangja.  
-Mivel a porszívómat Consuelának hívják ezért nekem a női hang jön be, de elkészítettem a férfi hangcsomagot is.  
-A hangcsomagban van: felmosótisztító, AI, ezüst-ion, kamera, porzsák, tiszta/szennyezet/mosószer-tartály hang, de a hangutasítások is.  
-Amin mennie kell biztosan: L20 Ultra, L10 Prime, L10 Pro, Z10 Pro, W10, D9, Xiaomi mop 2 pro+
-
+Készítettem 4 hangcsomagot a Bing TTS-ét használva a Dreame porszívókhoz. Ebből két hang a Tamás és Noémi natív magyar hang. Ryan és Jenny pedig Multilang és támogatja a magyar nyelvet is. A multilang nyelveknek van egy érdekes bája :) De nem rosszak.  
+  
+Tudomásom szerint minden Dreame porszívó hangjfájlait sikerült megtalánom. A hangcsomagban van: felmosótisztító, AI, ezüst-ion, kamera, porzsák, tiszta/szennyezet/mosószer-tartály hang, de a hangutasítások is.  
+  
+Amin mennie kell biztosan: L20 Ultra, L10 Prime, L10 Pro, Z10 Pro, W10, D9, Xiaomi mop 2 pro+  
+  
 A fájlok mérete az L20 Ultra miatt ekkora, de ahogy tapasztaltam egy elsőgenerációs gép sem panaszkodik érte.  
 
 Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az egészet betettem egy hangfelismerő AI-ba és azzal gyűjtöttem ki a szövegeket. Remélem minden stimmel, ha nem akkor jelezd és javítom. :)  
 
 ### Hangcsomagok adatai:
-- dreame-hu-male (Microsoft TTS - hu-HU-TamasNeural):  
-  raw path: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-male  
-  MD5 hash: 6e60020ed1fff808feecb647a1f526d6  
-  Fájlméret: 5851800 byte  
+- tamas_dreame_hu_voice (Microsoft TTS - hu-HU-TamasNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/tamas_dreame_hu_voice  
+  MD5 hash: 634eb01bc991ccc7202a744d0548cdbe  
+  Fájlméret: 6264603 byte  
     
-- dreame-hu-female (Microsoft TTS - hu-HU-NoemiNeural):  
-  raw path: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female  
-  MD5 hash: 3cd1615681c6a1f8d9f53ac1e935c7b2  
-  Fájlméret: 6518045 byte  
+- noemi_dreame_hu_voice (Microsoft TTS - hu-HU-NoemiNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice  
+  MD5 hash: a359ad671c72efe8e681813fc467d93f  
+  Fájlméret: 6939076 byte  
+
+- ryan_dreame_hu_voice (Microsoft TTS - en-US-RyanMultilingualNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/ryan_dreame_hu_voice  
+  MD5 hash: a4e6b7099f6f5cf6a45787448567ddc3  
+  Fájlméret: 6307335 byte  
+    
+- jenny_dreame_hu_voice (Microsoft TTS - en-US-JennyMultilingualV2Neural):   
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/jenny_dreame_hu_voice  
+  MD5 hash: 8fb2910645ceca2964a83bc55f8a29ad  
+  Fájlméret: 6376219 byte  
 
 ### Telepítés menete:  
 1. HomeAssistantból az alábbi módon történik:  
@@ -32,10 +41,10 @@ Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az eg
 	service: dreame_vacuum.vacuum_install_voice_pack
 	data:
 	url: >-
-	    https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame_hu_female
+	    https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice 
 	  lang_id: hu
-	  md5: "3cd1615681c6a1f8d9f53ac1e935c7b2"
-	  size: 6518045 
+	  md5: "a359ad671c72efe8e681813fc467d93f"
+	  size: 6939076 
 	target:
 	  entity_id: vacuum.dreamebot_<<<entity_id>>>
 	```
@@ -43,15 +52,15 @@ Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az eg
 2. Valetudo  
 	Menj a `Robot Settings` -> `Misc Settings` menübe.  
 	A `Voice packs` részbe írd be az alábbiakat:  
-	URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame_hu_female  
+	URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice   
 	Language Code: hu  
-	Hash: 3cd1615681c6a1f8d9f53ac1e935c7b2  
-	File size: 6518045 byte  
+	Hash: a359ad671c72efe8e681813fc467d93f  
+	File size: 6939076 byte  
 	és kattints a `Set Voice Pack` gombra.
 
 ### Saját TTS hang létrehozása:
 Ha valami hang hiányzik a mellékelt CSV-vel, php és python scriptekkel tudsz magadnak készíteni. Erre a részre nincs szükséged, ha neked megfelel az a hang, ami előre el van készítve!
-1. A Bing TTS használatához szükséges API kulcs!  **Amit a bing_hu_voice.php fájl 13.-ik sorába be kell írni.**  
+1. A Bing TTS használatához szükséges API kulcs!  **Amit a bing_hu_voice.php fájl 12.-ik sorába be kell írni.**  
 	- [Ingyenes kulcs beszerzés](https://azure.microsoft.com/en-us/try/cognitive-services/?api=speech-services)  
 	- [Fizetős kulcs](https://go.microsoft.com/fwlink/?LinkId=872236)  
 2. Szükséges programok:  
@@ -61,38 +70,49 @@ Ha valami hang hiányzik a mellékelt CSV-vel, php és python scriptekkel tudsz 
 	- **ffmpeg** -> Windows 10/11 alatt rendszergazdaként `choco install ffmpeg`
 	- **[python 3.11](https://apps.microsoft.com/detail/9NRWMJP3717K?hl=hu-HU&gl=HU)**
 4. Használat:
-   	- **ttscreate.py**  _pl: ttscreate.py gender --convert_  
-   	  Ez a CSV-ből lévő összes szöveget elkészít először WAV fájlba -> átkonvertálja OGG kiterjesztésbe -> bemásolja a sound_ogg tartalmát az ogg fájlok közé (ezek ugye nem felolvashatóak) ->
+   	- **ttscreate.py**  _pl: ttscreate.py HANG --convert_  
+   	  Ez a CSV-ből lévő összes szöveget elkészít először WAV fájlba -> normalizálja a hangot -> átkonvertálja OGG kiterjesztésbe -> bemásolja a sound_ogg tartalmát az ogg fájlok közé (ezek ugye nem felolvashatóak) ->
    	  kitörli az s*.ogg fájlokat amik csak helykitöltők a .csv fájlban -> készít egy .tar.gz archívumot -> készít md5 kivonatot, amit a fájl méretével együtt egy txt fájlba ír.  
-  	  _paraméter nélkül meghívva bekéri a nemet (male/female) és megkérdezi, hogy konvertálni szeretnéd-e a fájlokat._  
-   	- **bing_hu_voice.php** _pl.: php bing_hu_voice.php "szöveg" fájlnév gender_  
-   	   Ha csak egy szöveget szeretnél javítani elkészíti a megadott szöveget fájlnév.wav formában, a kért nemben (male/female) és ezután konvertálhatod újból.  
-   	- **convert.py** _pl.: convert.py gender_  
+  	  _paraméter nélkül meghívva megkérdezi melyik hangot szeretnéd (Tamas/Noemi/Ryan/Jenny) és megkérdezi, hogy konvertálni szeretnéd-e a fájlokat._  
+   	- **bing_hu_voice.php** _pl.: php bing_hu_voice.php "szöveg" fájlnév HANG_  
+   	   Ha csak egy szöveget szeretnél javítani elkészíti a megadott szöveget fájlnév.wav formában, a kért hangban (Tamas/Noemi/Ryan/Jenny) és ezután konvertálhatod újból.  
+   	- **convert.py** _pl.: convert.py HANG_  
    	  Ha konvertálás nélkül kérted vagy javítottál, ezzel tudod konvertálni külön.  
 
      
    
 ## English
 
-I used Bing TTS because it has the best Hungarian voice.  
-Since my vacuum cleaner is named Consuela, I prefer the female voice, but I also made a male voice pack.  
-The voice pack includes: mop cleaner, AI, silver-ion, camera, dust bag, clean/dirty/detergent tank voice, and also voice commands.  
+I have created 4 voice packs using Bing TTS for Dreame vacuum cleaners. Two of these voices are Tamás and Noémi, native Hungarian voices. Ryan and Jenny are Multilang and also support Hungarian. The Multilang languages have an interesting charm :) But they are not bad.  
+  
+To my knowledge, I have managed to find the voice files for every Dreame vacuum cleaner. The voice pack includes: mop cleaner, AI, silver ion, camera, dust bag, clean/dirty/detergent tank sound, as well as voice commands.   
+  
 It should definitely work on: L20 Ultra, L10 Prime, L10 Pro, Z10 Pro, W10, D9, Xiaomi mop 2 pro+  
-
+  
 The file size is this large due to the L20 Ultra, but as I observed, even a first-generation machine does not complain about it.  
-
+  
 Since the texts for the files above 200.ogg were not available anywhere, I put the whole thing into a speech recognition AI and used it to collect the texts. I hope everything is correct, but if not, please let me know and I'll fix it. :)  
 
 ### Voice Pack Details  
-- dreame-hu-male (Microsoft TTS - hu-HU-TamasNeural):   
-  raw path: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female  
-  MD5 hash: 6e60020ed1fff808feecb647a1f526d6  
-  File size: 5851800 bytes  
+- tamas_dreame_hu_voice (Microsoft TTS - hu-HU-TamasNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/tamas_dreame_hu_voice  
+  MD5 hash: 634eb01bc991ccc7202a744d0548cdbe   
+  File size: 6264603 byte  
+
+- noemi_dreame_hu_voice (Microsoft TTS - hu-HU-NoemiNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice   
+  MD5 hash: a359ad671c72efe8e681813fc467d93f   
+  File size: 6939076 byte   
+
+- ryan_dreame_hu_voice (Microsoft TTS - en-US-RyanMultilingualNeural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/ryan_dreame_hu_voice  
+  MD5 hash: a4e6b7099f6f5cf6a45787448567ddc3  
+  File size: 6307335 byte  
     
-- dreame-hu-female (Microsoft TTS - hu-HU-NoemiNeural):  
-  raw path: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female  
-  MD5 hash: 3cd1615681c6a1f8d9f53ac1e935c7b2  
-  File size: 6518045 bytes  
+- jenny_dreame_hu_voice (Microsoft TTS - en-US-JennyMultilingualV2Neural):  
+  URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/jenny_dreame_hu_voice  
+  MD5 hash: 8fb2910645ceca2964a83bc55f8a29ad  
+  File size: 6376219 byte  
 
 ### Installation Process:  
 1. From HomeAssistant as follows:  
@@ -104,8 +124,8 @@ Since the texts for the files above 200.ogg were not available anywhere, I put t
    url: >-
        https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female
      lang_id: hu
-     md5: "3cd1615681c6a1f8d9f53ac1e935c7b2"
-     size: 6518045 
+     md5: "a359ad671c72efe8e681813fc467d93f"
+     size: 6939076 
    target:
      entity_id: vacuum.dreamebot_<<<entity_id>>>
    ```
@@ -115,13 +135,13 @@ Since the texts for the files above 200.ogg were not available anywhere, I put t
    In the `Voice packs` section, enter the following:  
    URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female
    Language Code: hu  
-   Hash: 3cd1615681c6a1f8d9f53ac1e935c7b2  
-   File size: 6518045 bytes  
+   Hash: a359ad671c72efe8e681813fc467d93f  
+   File size: 6939076 bytes  
    and click the `Set Voice Pack` button.
 
 ### Creating Your Own TTS Voice:
 If you're missing any sound, you can create your own using the provided CSV, PHP, and Python scripts. You don't need this part if you're satisfied with the pre-made sounds!
-1. API key required for Bing TTS! **Write it in the 13th line of the bing_hu_voice.php file.**  
+1. API key required for Bing TTS! **Write it in the 12th line of the bing_hu_voice.php file.**  
    - [Free key acquisition](https://azure.microsoft.com/en-us/try/cognitive-services/?api=speech-services)  
    - [Paid key](https://go.microsoft.com/fwlink/?LinkId=872236)  
 2. Required programs:  
@@ -131,11 +151,13 @@ If you're missing any sound, you can create your own using the provided CSV, PHP
    - **ffmpeg** -> For Windows 10/11, install as administrator with `choco install ffmpeg`
    - **[python 3.11](https://apps.microsoft.com/detail/9NRWMJP3717K?hl=hu-HU&gl=HU)**
 3. Usage:
-    - **ttscreate.py** _e.g., ttscreate.py gender --convert_  
-      This creates all texts from the CSV first in WAV file -> converts to OGG extension -> copies the content of sound_ogg into the ogg files (which are not readable) ->
-      deletes the s*.ogg files which are just placeholders in the .csv file -> creates a .tar.gz archive -> creates an MD5 extract, which along with the file size is written into a txt file.  
-      _Called without parameters, it asks for the gender (male/female) and whether you'd like to convert the files._  
-    - **bing_hu_voice.php** _e.g., php bing_hu_voice.php "text" filename gender_  
-       If you want to correct just one text, it creates the specified text in filename.wav format, in the requested gender (male/female), and then you can convert it again.  
-    - **convert.py** _e.g., convert.py gender_  
-      If you requested without conversion or corrected something, you can use this for separate conversion.  
+	- **ttscreate.py** _example: ttscreate.py VOICE --convert_  
+	  This script first processes all the text from the CSV into a WAV file -> normalizes the sound -> converts it into OGG format -> copies the content into the sound_ogg folder among the ogg files (which are not readable) ->
+	  deletes the s*.ogg files which are just placeholders in the .csv file -> creates a .tar.gz archive -> generates an md5 summary, which is written into a txt file along with the file size.  
+	  _When called without parameters, it asks which voice you would like to use (Tamas/Noemi/Ryan/Jenny) and whether you would like to convert the files._
+
+	- **bing_hu_voice.php** _example: php bing_hu_voice.php "text" filename VOICE_  
+	  If you want to correct just one piece of text, it creates the specified text in filename.wav format in the requested voice (Tamas/Noemi/Ryan/Jenny) and then you can convert it again.
+
+	- **convert.py** _example: convert.py VOICE_  
+	  If you requested or corrected without conversion, this script can be used to perform the conversion separately.
