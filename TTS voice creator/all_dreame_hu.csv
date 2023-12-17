@@ -1,5 +1,5 @@
 Code;Text
-s0;Indítási hang
+s0;Indítási hang.
 1;Várakozás a hálózati konfigurációra.
 2;Nem sikerült csatlakozni a Wi-Fi hálózathoz. Kérem, ellenőrizze a Wi-Fi jelszavát és próbálja meg újra.
 3;Nem sikerült csatlakozni a szerverhez. Kérem, ellenőrizze a helyi hálózatot és próbálja meg újra.
@@ -64,7 +64,7 @@ s0;Indítási hang
 62;Távirányítós takarítás elkezdése.
 63;A víztartály eltávolítva.
 64;A pozicionálás sikertelen. A térkép érvénytelen. A robot visszatér a dokkolóhoz.
-65;Folytatatom a visszatérést a dokkolóhoz.
+65;Folytatom a visszatérést a dokkolóhoz.
 66;A szűrő elhasználódott. Kérem, cserélje ki időben.
 67;Az oldalsó kefe elhasználódott. Kérem, cserélje ki időben.
 68;A főkefe elhasználódott. Kérem, cserélje ki időben.

@@ -15,23 +15,23 @@ Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az eg
 ### Hangcsomagok adatai:
 - tamas_dreame_hu_voice (Microsoft TTS - hu-HU-TamasNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/tamas_dreame_hu_voice  
-  MD5 hash: 634eb01bc991ccc7202a744d0548cdbe  
-  Fájlméret: 6264603 byte  
+  MD5 hash: 5f6a880db55abd6eb8044a1ea93ea319  
+  Fájlméret: 6264469 byte  
     
 - noemi_dreame_hu_voice (Microsoft TTS - hu-HU-NoemiNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice  
-  MD5 hash: a359ad671c72efe8e681813fc467d93f  
-  Fájlméret: 6939076 byte  
+  MD5 hash: 7abfc9ec9d16204f84ac138338066ec6  
+  Fájlméret: 6938480 byte  
 
 - ryan_dreame_hu_voice (Microsoft TTS - en-US-RyanMultilingualNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/ryan_dreame_hu_voice  
-  MD5 hash: a4e6b7099f6f5cf6a45787448567ddc3  
-  Fájlméret: 6307335 byte  
+  MD5 hash: 11622301ecc59a90c0e5b2210136ef91  
+  Fájlméret: 6306529 byte  
     
 - jenny_dreame_hu_voice (Microsoft TTS - en-US-JennyMultilingualV2Neural):   
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/jenny_dreame_hu_voice  
-  MD5 hash: 8fb2910645ceca2964a83bc55f8a29ad  
-  Fájlméret: 6376219 byte  
+  MD5 hash: 267c79b664724b588174f9d3e87a9e45  
+  Fájlméret: 6375317 byte  
 
 ### Telepítés menete:  
 1. HomeAssistantból az alábbi módon történik:  
@@ -43,8 +43,8 @@ Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az eg
 	url: >-
 	    https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice 
 	  lang_id: hu
-	  md5: "a359ad671c72efe8e681813fc467d93f"
-	  size: 6939076 
+	  md5: "7abfc9ec9d16204f84ac138338066ec6"
+	  size: 6938480 
 	target:
 	  entity_id: vacuum.dreamebot_<<<entity_id>>>
 	```
@@ -54,8 +54,8 @@ Mivel a 200.ogg feletti szövegek sehol nem álltak rendelkezésre, ezért az eg
 	A `Voice packs` részbe írd be az alábbiakat:  
 	URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice   
 	Language Code: hu  
-	Hash: a359ad671c72efe8e681813fc467d93f  
-	File size: 6939076 byte  
+	Hash: 7abfc9ec9d16204f84ac138338066ec6  
+	File size: 6938480 byte  
 	és kattints a `Set Voice Pack` gombra.
 
 ### Saját TTS hang létrehozása:
@@ -96,23 +96,23 @@ Since the texts for the files above 200.ogg were not available anywhere, I put t
 ### Voice Pack Details  
 - tamas_dreame_hu_voice (Microsoft TTS - hu-HU-TamasNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/tamas_dreame_hu_voice  
-  MD5 hash: 634eb01bc991ccc7202a744d0548cdbe   
-  File size: 6264603 byte  
+  MD5 hash: 5f6a880db55abd6eb8044a1ea93ea319   
+  File size: 6264469 byte  
 
 - noemi_dreame_hu_voice (Microsoft TTS - hu-HU-NoemiNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice   
-  MD5 hash: a359ad671c72efe8e681813fc467d93f   
-  File size: 6939076 byte   
+  MD5 hash: 7abfc9ec9d16204f84ac138338066ec6   
+  File size: 6938480 byte   
 
 - ryan_dreame_hu_voice (Microsoft TTS - en-US-RyanMultilingualNeural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/ryan_dreame_hu_voice  
-  MD5 hash: a4e6b7099f6f5cf6a45787448567ddc3  
-  File size: 6307335 byte  
+  MD5 hash: 11622301ecc59a90c0e5b2210136ef91  
+  File size: 6306529 byte  
     
 - jenny_dreame_hu_voice (Microsoft TTS - en-US-JennyMultilingualV2Neural):  
   URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/jenny_dreame_hu_voice  
-  MD5 hash: 8fb2910645ceca2964a83bc55f8a29ad  
-  File size: 6376219 byte  
+  MD5 hash: 267c79b664724b588174f9d3e87a9e45  
+  File size: 6375317 byte  
 
 ### Installation Process:  
 1. From HomeAssistant as follows:  
@@ -124,8 +124,8 @@ Since the texts for the files above 200.ogg were not available anywhere, I put t
    url: >-
        https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female
      lang_id: hu
-     md5: "a359ad671c72efe8e681813fc467d93f"
-     size: 6939076 
+     md5: "7abfc9ec9d16204f84ac138338066ec6"
+     size: 6938480 
    target:
      entity_id: vacuum.dreamebot_<<<entity_id>>>
    ```
@@ -135,8 +135,8 @@ Since the texts for the files above 200.ogg were not available anywhere, I put t
    In the `Voice packs` section, enter the following:  
    URL: https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/dreame-hu-female
    Language Code: hu  
-   Hash: a359ad671c72efe8e681813fc467d93f  
-   File size: 6939076 bytes  
+   Hash: 7abfc9ec9d16204f84ac138338066ec6  
+   File size: 6938480 bytes  
    and click the `Set Voice Pack` button.
 
 ### Creating Your Own TTS Voice:
