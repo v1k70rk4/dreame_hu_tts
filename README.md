@@ -64,10 +64,11 @@ Ha valami hang hiányzik a mellékelt CSV-vel, php és python scriptekkel tudsz 
 	- [Ingyenes kulcs beszerzés](https://azure.microsoft.com/en-us/try/cognitive-services/?api=speech-services)  
 	- [Fizetős kulcs](https://go.microsoft.com/fwlink/?LinkId=872236)  
 2. Szükséges programok:  
-   Ezek Windows-ra vannak, de a linuxosok mindet repóból fel tudják tenni.  
-	- **[PHP 7/8](https://www.php.net/downloads)** PATH-ba be kell tenni a php.exe elérési útját!
-	- **[Vorbis-tools Windows](https://github.com/Chocobo1/vorbis-tools_win32-build/releases)** PATH-ba be kell tenni a oggenc.exe elérési útját! 
-	- **ffmpeg** -> Windows 10/11 alatt rendszergazdaként `choco install ffmpeg`
+   Ezek Windows-ra vannak, de a linuxosok mindet repóból fel tudják tenni.
+    - Opcionális: Choco repo használat: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+	- **[PHP 7/8](https://www.php.net/downloads)** PATH-ba be kell tenni a php.exe elérési útját! -> Choco: `choco install php --version=8.5 -y`
+	- **[Vorbis-tools Windows](https://github.com/Chocobo1/vorbis-tools_win32-build/releases)** PATH-ba be kell tenni a oggenc.exe elérési útját!
+	- **ffmpeg** -> Choco: `choco install ffmpeg`
 	- **[python 3.11](https://apps.microsoft.com/detail/9NRWMJP3717K?hl=hu-HU&gl=HU)**
 4. Használat:
    	- **ttscreate.py**  _pl: ttscreate.py HANG --convert_  
