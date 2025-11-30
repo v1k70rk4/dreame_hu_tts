@@ -28,8 +28,8 @@ s0;Indítási hang.
 26;Gyári beállítások visszaállítása.
 27;Frissítés. Körülbelül öt percig tart. Ne kapcsolja ki, és ne kezdjen takarítási feladatot.
 28;Sikeresen frissítve.
-29;A frissítés nem sikerült, Kérem, próbálja meg újra.
-30;Pozicionálás, Kérem, várjon.
+29;A frissítés nem sikerült, kérem, próbálja meg újra.
+30;Pozicionálás, kérem, várjon.
 31;A pozicionálás sikertelen. A térkép érvénytelen. A robot új takarítást kezd.
 32;Érzékeltem a környezet változásait. Kérem, nyomja meg a gombot és kezdjen új takarítási feladatot.
 33;Vizuális navigációs szenzor hiba. Kérem, tisztítsa meg, és indítsa újra.
@@ -58,7 +58,7 @@ s0;Indítási hang.
 56;Kiválasztott szoba takarításának elkezdése.
 57;Zóna takarításának elkezdése.
 58;Továbbhaladás a takarítási feladattal.
-59;Felmosás befejezve. Kérem, vegye ki időben a víztartályt.
+59;Felmosás befejezve. Kérem, ürítse ki időben a víztartályt.
 60;Optikai áramlásérzékelő hiba. Kérem, tisztítsa meg az optikai áramlásérzékelőt és indítsa újra.
 61;Felmosás elkezdése.
 62;Távirányítós takarítás elkezdése.
@@ -85,7 +85,7 @@ s0;Indítási hang.
 83;Folytatás a térképezéssel.
 84;Térképezés befejezve.
 85;Pozícionálás sikeres. Folytatódik a térképezés.
-86;Pozícionálás sikertelen. Újrakezdőik a térképezés.
+86;Pozícionálás sikertelen. Újrakezdődik a térképezés.
 87;Alacsony akkumulátortöltöttség. Visszatérés a dokkolóhoz.
 88;Távirányító mód aktiválása.
 89;Töltés folytatása.
@@ -112,7 +112,7 @@ s0;Indítási hang.
 110;Automata ürítés elindítása.
 111;A felmosópadok le vannak szerelve. Kérem, szerelje fel őket, mielőtt folytatná a munkát.
 112;Helyezze vissza a robotot az öntisztító dokkra használat előtt.
-113;Feladat befejezve. Kérem, időben ürítse ki a hulladéktartályt.
+113;Feladat befejezve. Kérem, időben ürítse ki a portartályt.
 114;A felmosópadok felszerelve.
 115;A felmosópadok eltávolítva.
 116;Gyermekzár bekapcsolva. A gombok zárolva.
@@ -121,7 +121,7 @@ s0;Indítási hang.
 119;Gombok zárolva.
 120;Gombok feloldva.
 121;A robot és a telefon kapcsolódva. Kérem, térjen vissza a Fantic alkalmazásba, és várja meg a hálózati kapcsolat befejezését.
-122;Folyamatos helymeghatározás, Kérem várjon.
+122;Folyamatos helymeghatározás, kérem várjon.
 126;Takarítás elkezdése.
 127;Helyi tisztítás elkezdése.
 128;Helyi felmosás elkezdése.
@@ -137,8 +137,8 @@ s0;Indítási hang.
 138;Felmosás folytatása.
 139;Visszatérés a dokkolóhoz az öntisztításhoz.
 140;Új környezet észlelve. Visszatérés az öntisztító dokkolóhoz.
-141;Felmosópárna hiba. Kérem, ellenőrizze és tisztítsa meg.
-142;Felmosópárna elhasználódott. Kérem, időben cserélje ki.
+141;Felmosópad hiba. Kérem, ellenőrizze és tisztítsa meg.
+142;Felmosópad elhasználódott. Kérem, időben cserélje ki.
 143;Takarítás befejezve.
 144;Felmosás befejezve.
 145;Pozicionálás sikeres. Takarítás folytatása.
@@ -148,24 +148,24 @@ s0;Indítási hang.
 150;Nem érhető el a meghatározott terület. Kérem, próbálja meg törölni a tiltott zónákat az útból.
 151;Az út blokkolva. Kérem, próbálja meg eltávolítani az akadályokat a robot körül.
 152;Az út blokkolva. Kérem, próbálja meg törölni a tiltott zónákat, vagy mozgassa a robotot ki erről a területről.
-153;A robotot tiltott zónában van. Kérem, mozgassa ki a robotot erről a területről.
+153;A robot tiltott zónában van. Kérem, mozgassa ki a robotot erről a területről.
 154;Túl gyakori működtetés. Kérem, próbálja meg később újra.
 155;Visszatérés a töltő és felmosó tisztító dokkhoz.
-156;Felmosótálca ki van szerelve.
+156;Mosódeszka ki van szerelve.
 157;Már a töltő- és felmosó tisztító dokknál vagyok.
 162;A kamera bekapcsolva.
 163;Kamerafigyelés.
 164;Feladat befejeződött.
-166;Kérem, tisztítsa meg a felmosópárnán összegabalyodott idegen tárgyakat.
-169;Felmosópárna szárítása befejeződött.
+166;Kérem, tisztítsa meg a felmosópadon összegabalyodott idegen tárgyakat.
+169;Felmosópad szárítása befejeződött.
 170;Az összes gomb le van zárva. Nyomja meg és tartsa lenyomva dokkolón lévő gombokat a feloldáshoz.
 171;AI felismerő funkció bekapcsolva.
 172;AI felismerő funkció kikapcsolva.
 173;Kérem, cserélje ki az ezüst-ionos fertőtlenítőt.
-177;Elhagyja a dokkot.
-179;Felmosópárna megtisztítva. A tiszta víztartályban lévő víz nem elegendő. Kérem, töltse fel a tiszta víztartályt és ürítse ki a használt víztartályt.
-181;Nincs elég víz, Kérem, töltse fel a tiszta víztartályt.
-186;Kérem, ellenőrizze a friss tartályt.
+177;A dokkoló elhagyása.
+179;Felmosópad megtisztítva. A tiszta víztartályban lévő víz nem elegendő. Kérem, töltse fel a tiszta víztartályt és ürítse ki a szennyezett víztartályt.
+181;Nincs elég víz, kérem, töltse fel a tiszta víztartályt.
+186;Kérem, ellenőrizze a tiszta víztartályt.
 187;Körülbelül 5-10 percet vesz igénybe.
 188;Automatikus dokkolás aktiválva.
 190;Rendben, indítom a takarítást.
@@ -261,7 +261,7 @@ s274;Ding hang
 292;Rendben, nedves módra váltottam.
 293;Hívás engedélyezve
 294;Hívás letiltva
-296;Használt víztartály hiba. Kérem, ellenőrizze, hogy a használt víztartály tele van-e.
+296;Szennyezett víztartály hiba. Kérem, ellenőrizze, hogy a szennyezett víztartály tele van-e.
 297;Ha a mosószerpalack fel van szerelve és a mosószert még sosem használta, kérem állítsa vissza az alkalmazásban.
 298;A dokkoló öntisztítása elkezdődik. Kérem, tisztítsa meg belül a tisztítókefével vagy ronggyal. Három perc múlva, a mosódeszkán lévő szennyvíz lefolyik.
 299;Mosószerpalack és az automatikus adagoló modul telepítve.
@@ -287,15 +287,16 @@ s274;Ding hang
 319;Nem sikerült eltávolítani a felmosópadokat, kérem, távolítsa el őket kézzel.
 320;Nem sikerült felszerelni a felmosópadokat, kérem, szerelje fel őket kézzel.
 321;Kezdődjön az intenzív felmosás a foltokhoz.
-322;Sajnálom, nem értettem. Az összes elérhető hangparancsért nyissa meg az alkalmazást.
-323;Sajnálom, nem értettem. Az összes elérhető hangparancsért nyissa meg az alkalmazást.
+322;Sajnálom, nem értettem, mit mondott. Mondhatja nekem, hogy „Szia Dreame, milyen készségeid vannak?”, hogy megismerje az összes képességemet.
+323;Sajnálom, nem egészen értem. Megnyithatja az alkalmazást, hogy megtekintse az általam támogatott összes hangparancsot.
 324;Éppen mosom a felmosópadot. Kérem, ébresszen fel, amikor a mosás befejeződött.
 328;Sajnálom, ezt a parancsot csak takarítás közben adhatja.
 329;Kezdődjön az öntesztelés. Kérem, ne mozdítson el a dokkolóról.
 330;Próbálja újra az öntesztelés befejezése után.
 331;Nem találtam hibát. Nyugodtan használhatja a készüléket.
 332;Egy hibát találtam. Az alkalmazásban megtalálja a részleteket.
-338;Videóhívás csatlakoztatva.
+s337;Telefoncsörgés
+338;Videóhívás kapcsolva.
 339;Hívás elutasítva.
 340;Nincs válasz.
 341;Megtaláltam. Most követni kezdem. Mondhatja, hogy kilépés a követés befejezéséhez.
@@ -315,3 +316,280 @@ s274;Ding hang
 363;A porszívózási feladat befejeződött, kezdem a felmosást.
 364;Videó indító kód beállításának kezdete.
 365;A valós idejű videó funkció letiltva.
+366;Foltot találtam. Kezdem a foltos terület takarítását.
+367;Rendben, indítom a kért folttisztítást.
+368;Foltot találtam. A felmosópad tisztítása után visszatérek feltakarítani.
+369;Rendben, kezdem a helyi folttisztítást.
+371;Kérem, vegye ki a mosódeszkát.
+372;Tiszta víz kiengedésének indítása.
+373;A víz kiengedése befejeződött. Kérem, várjon türelemmel 10 másodpercet, amíg a szennyeződés felázik, majd súrolja át.
+374;Kérem, kefével vagy ronggyal tisztítsa meg a dokkoló alját. 20 másodperc múlva elkezdem a szennyezett víz kiszivattyúzását.
+375;Kérem, tolja a szennyeződést a dokkoló aljának közepén lévő elszívónyíláshoz. A vízszivattyúzás 30 másodpercig tart.
+376;A szennyezett víz kiszivattyúzása befejeződött. Kérem, mossa el külön a mosódeszkát, majd helyezze vissza a dokkolóba.
+377;Ez az eszköz nem tudja konfigurálni a hálózatot. Kérem, forduljon az ügyfélszolgálathoz.
+378;A Wi-Fi jelszó helytelen, a csatlakozás sikertelen. Kérem, konfigurálja újra a hálózatot.
+379;Nem található Wi-Fi hálózat. Kérem, csatlakozzon 2,4 GHz-es hálózathoz, vigye a robotot közelebb a routerhez, és próbálja újra.
+380;Nem sikerült IP-címet lekérni. Kérem, ellenőrizze a router beállításait.
+381;Nem sikerült csatlakozni az EMQ szerverhez. Kérem, ellenőrizze az internetszolgáltatót.
+382;A hálózati csatlakozás sikertelen. Kérem, ellenőrizze az internetszolgáltatót.
+383;Ez az eszköz nem tudja konfigurálni a hálózatot. Kérem, forduljon az ügyfélszolgálathoz.
+384;Vízbekötő modul hiba: nincs víz a tiszta víztartályban.
+385;Hálózati csatlakozás indítása.
+386;A robot szennyezett víztartálya megtelt. Visszatérek üríteni, majd folytatom a munkát.
+388;A zóna rejtett. Kérem, vigye a robotot egy érvényes területre, és próbálja újra.
+389;A lézerérzékelő süllyesztése sikertelen. Kérem, ellenőrizze, nem szorult-e be.
+390;A lézerérzékelő kiemelése sikertelen. Kérem, ellenőrizze, nem szorult-e be.
+391;A jelenlegi pozícióban nem tudom kiemelni a lézerérzékelőt. Kérem, vigye a robotot nyílt területre, és indítsa újra a feladatot.
+392;Intelligens módban a takarítási paraméterek módosítása nem támogatott.
+393;A robot belső szennyezett víztartálya túl koszos. Kérem, vegye ki és tisztítsa meg.
+394;A tisztítótálca működése leállt.
+396;Vízbekötő modul leeresztésének indítása. Várhatóan 3 percet vesz igénybe.
+397;Vízbekötő modul leeresztése befejeződött.
+398;Térképezés befejezve. Kérem, ellenőrizze az alkalmazásban, és helyezzen vissza a dokkolóra.
+399;Feladat befejezve. Kérem, vigyen vissza a dokkolóhoz.
+400;Az öntisztítás befejeződött. Most áthelyezheti a robotot a megfelelő szintre, és a gomb megnyomásával folytathatja a munkát.
+401;Kérem, vigyen vissza a dokkolóhoz, majd indítsa el az öntisztítást.
+402;Itt vagyok.
+403;Hallgatom.
+404;Szia, gazdám!
+405;Mi a helyzet?
+406;Miben segíthetek?
+407;Mit tehetek?
+408;Igen?
+421;A hangcsomag beállítása sikeres.
+424;Kérem, vigye a robotot nyílt területre, majd indítsa újra a feladatot.
+426;A robot megcsúszott és elakadt. Kérem, próbálja meg később.
+433;Azonnali extra takarítás.
+434;Az extra takarítás befejeződött, folytatom a takarítást.
+435;Azonnal elhagyom a jelenlegi területet.
+s436;Jelzőhang
+437;A probléma megoldódott. Nyomja meg a gombot a munka folytatásához.
+438;Az ütköző beragadt. Kérem, finoman ütögesse meg a robot elején lévő ütközőt, hogy lássa, visszapattan-e.
+439;A lézerérzékelő fedele beragadt. Kérem, finoman ütögesse meg a fedél mozgó részét, hogy lássa, visszapattan-e.
+441;A főkefe felcsavarodott. Kérem, vegye ki, tisztítsa meg, majd helyezze vissza.
+442;Az oldalkefe felcsavarodott. Kérem, vegye le, tisztítsa meg, majd helyezze vissza.
+443;A hajtókerék elakadt. Kérem, távolítsa el a felcsavarodott szennyeződést.
+444;Kérem, helyezze a robotot nyílt területre, majd indítsa újra a feladatot.
+445;A felmosópad leesett. Kérem, keresse meg a közelben, és helyezze vissza.
+446;A felmosópad-tartó tárcsa elakadt vagy felcsavarodott. Kérem, vegye le és tisztítsa meg.
+447;A dokkoló nincs csatlakoztatva az áramforráshoz. Kérem, ellenőrizze, majd helyezze a robotot a dokkolóra tölteni.
+448;A robot szennyezett víztartálya nincs behelyezve. Kérem, helyezze be, majd indítsa újra a feladatot.
+449;A robot nem tud feladatot indítani szőnyegen. Kérem, helyezze kemény padlóra, és próbálja újra.
+450;A robot nem tud tiltott zónában feladatot indítani. Kérem, vigye a robotot engedélyezett területre, és indítsa újra a feladatot.
+451;A robot nem tud rejtett zónában feladatot indítani. Kérem, vigye a robotot nem rejtett területre, és indítsa újra a feladatot.
+452;Ultrahangos érzékelő hiba. Kérem, fordítsa meg a robotot, törölje meg az alján lévő fehér kerek nyílást, majd indítsa újra a készüléket.
+453;Szegélyérzékelő hiba. Kérem, törölje le a robot jobb oldalán lévő fekete érzékelőt, majd indítsa újra a feladatot.
+454;A tiszta víztartály vize hamarosan elfogy. A zavartalan takarítás érdekében kérem, töltse fel időben.
+455;A tiszta víztartály nincs a helyén. Kérem, segítsen nekem felszerelni a tiszta víztartályt.
+456;A szennyezett víztartály megtelt vagy nincs behelyezve. Kérem, ellenőrizze a szennyezett víztartályt.
+457;A szennyezett víztartály megtelt vagy nincs behelyezve. Kérem, ellenőrizze a szennyezett víztartályt.
+458;A porzsák nincs a helyén. Kérem, győződjön meg arról, hogy megfelelően be van szerelve.
+459;A felmosópad nincs a helyén. Kérem, győződjön meg arról, hogy a felmosópadot visszaszerelte a robotra.
+460;A szennyezett víztartály szagtalanító modulja lejárt. Kérem, cserélje ki időben.
+463;Üdvözli a Dreame robotporszívó! Kérem, nyissa fel a fedelet, olvassa be a QR-kódot, és töltse le a Dreame alkalmazást a további műveletekhez.
+464;A feladat sikeres elvégzése érdekében, kezdés előtt helyezze a robotot a dokkolóra. Ha hallja a „Töltés elkezdése” hangot, a behelyezés megfelelő.
+465;Kezdés előtt helyezze a robotot a dokkolóra. Ha hallja a „Töltés elkezdése” hangot, a behelyezés megfelelő.
+466;Kérem, nyissa ki a takarítandó szobák ajtaját, és távolítsa el az akadályokat a földről.
+467;Kérem, vigye vissza a robotot a dokkolóra, majd kezdje újra a térképezést.
+468;Kérem, ellenőrizze az alkalmazásban, hogy a térkép adatai pontosak-e.
+469;Próbálja meg azt mondani a robotnak: „Szia Dreame, indítsd el a takarítást”.
+470;Készen állok. Próbálja meg azt mondani a robotnak: „Szia Dreame, indítsd el a takarítást”.
+471;Próbálja meg azt mondani a robotnak: „Szia Dreame, növeld a szívóerőt”.
+472;Próbálja meg azt mondani a robotnak: „Szia Dreame, növeld a felmosópad nedvességét”.
+473;Próbálja meg azt mondani a robotnak: „Szia Dreame, porszívózz és moss fel”, a módváltáshoz.
+474;Próbálja meg azt mondani a robotnak: „Szia Dreame, moss fel”, a módváltáshoz.
+475;Próbálja meg azt mondani a robotnak: „Szia Dreame, gyere ide takarítani”, a helyi tisztítás elindításához.
+476;Próbálja meg azt mondani a robotnak: „Szia Dreame, porszívózás után felmosás”, a módváltáshoz.
+477;Próbálja meg azt mondani a robotnak: „Szia Dreame, indítsd el a takarítást”, a teljes takarítás elindításához.
+478;A robot visszatér a bázisra kimosni a felmosópadot, majd folytatja a feladatot.
+479;Készen állok. Kérem, indítsa újra a feladatot.
+480;A további feladatok sikeres elvégzése érdekében, kérem, ellenőrizze, hogy a tiszta víztartályban van-e elegendő víz.
+481;Automata ürítés elindítása.
+482;A porszívó ürítése folyamatban, utána a robot ürítése következik.
+483;Automata ürítés folyamatban, utána a felmosópad tisztítása következik.
+484;Automata ürítés folyamatban, utána takarítási feladat kezdődik.
+485;A robot ürítése folyamatban, utána a porszívó ürítése következik.
+486;A felmosópad tisztítása folyamatban, utána az automata ürítés következik.
+487;Kérem, győződjön meg arról, hogy a robot a dokkolón van.
+s488;Jelzőhang
+489;Jelenleg Intelligens módban vagyok. Kérem, mondja azt, hogy „Fejezd be a feladatot”, majd próbálja újra.
+490;Rendben, belépés egyéni módba. Felmosás indítása.
+491;Rendben, belépés egyéni módba. Porszívózás indítása.
+492;Rendben, indítom a nappali takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+493;Rendben, indítom a hálószoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+494;Rendben, indítom a fő hálószoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+495;Rendben, indítom a vendégszoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+496;Rendben, indítom a dolgozószoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+497;Rendben, indítom a konyha takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+498;Rendben, indítom az étkező takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+499;Rendben, indítom a fürdőszoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+500;Rendben, indítom az erkély takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+501;Rendben, indítom a folyosó takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+502;Rendben, indítom a háztartási helyiség takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+503;Rendben, indítom a gardrób takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+504;Rendben, indítom a fogadószoba takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+505;Rendben, indítom az iroda takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+506;Rendben, indítom az edzőterem takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+507;Rendben, indítom a pihenősarok takarítását, győződjön meg arról, hogy az ajtó nyitva van.
+508;Rendben, a hangerőt növeltem.
+509;Rendben, a hangerőt csökkentettem.
+510;Rendben, befejeztem a munkát.
+511;Sajnálom, a robot jelenleg nem végez feladatot.
+512;A térképen nincsenek kisállat-bútorok. Kérem, adja hozzá az alkalmazásban.
+513;Rendben, indulok megtisztítani a kisállat-bútorok környékét.
+515;Szia Gazdám! Kérlek, emeld fel a lábad, hogy kitakaríthassak alattad.
+516;Kisállat keresésének indítása.
+517;Megtaláltam a kisállatot, visszatérek tölteni.
+518;Nem találtam meg a kisállatot, visszatérek tölteni.
+522;Milyen problémát szeretne jelenteni?
+523;Kérem, írja le részletesebben a problémát.
+524;Kérem, vigyen oda, ahol a probléma történt.
+525;Kérem, várjon, az elemzés folyamatban van.
+526;Az akkumulátor töltöttsége 100%.
+527;Az akkumulátor töltöttsége 99%.
+528;Az akkumulátor töltöttsége 98%.
+529;Az akkumulátor töltöttsége 97%.
+530;Az akkumulátor töltöttsége 96%.
+531;Az akkumulátor töltöttsége 95%.
+532;Az akkumulátor töltöttsége 94%.
+533;Az akkumulátor töltöttsége 93%.
+534;Az akkumulátor töltöttsége 92%.
+535;Az akkumulátor töltöttsége 91%.
+536;Az akkumulátor töltöttsége 90%.
+537;Az akkumulátor töltöttsége 89%.
+538;Az akkumulátor töltöttsége 88%.
+539;Az akkumulátor töltöttsége 87%.
+540;Az akkumulátor töltöttsége 86%.
+541;Az akkumulátor töltöttsége 85%.
+542;Az akkumulátor töltöttsége 84%.
+543;Az akkumulátor töltöttsége 83%.
+544;Az akkumulátor töltöttsége 82%.
+545;Az akkumulátor töltöttsége 81%.
+546;Az akkumulátor töltöttsége 80%.
+547;Az akkumulátor töltöttsége 79%.
+548;Az akkumulátor töltöttsége 78%.
+549;Az akkumulátor töltöttsége 77%.
+550;Az akkumulátor töltöttsége 76%.
+551;Az akkumulátor töltöttsége 75%.
+552;Az akkumulátor töltöttsége 74%.
+553;Az akkumulátor töltöttsége 73%.
+554;Az akkumulátor töltöttsége 72%.
+555;Az akkumulátor töltöttsége 71%.
+556;Az akkumulátor töltöttsége 70%.
+557;Az akkumulátor töltöttsége 69%.
+558;Az akkumulátor töltöttsége 68%.
+559;Az akkumulátor töltöttsége 67%.
+560;Az akkumulátor töltöttsége 66%.
+561;Az akkumulátor töltöttsége 65%.
+562;Az akkumulátor töltöttsége 64%.
+563;Az akkumulátor töltöttsége 63%.
+564;Az akkumulátor töltöttsége 62%.
+565;Az akkumulátor töltöttsége 61%.
+566;Az akkumulátor töltöttsége 60%.
+567;Az akkumulátor töltöttsége 59%.
+568;Az akkumulátor töltöttsége 58%.
+569;Az akkumulátor töltöttsége 57%.
+570;Az akkumulátor töltöttsége 56%.
+571;Az akkumulátor töltöttsége 55%.
+572;Az akkumulátor töltöttsége 54%.
+573;Az akkumulátor töltöttsége 53%.
+574;Az akkumulátor töltöttsége 52%.
+575;Az akkumulátor töltöttsége 51%.
+576;Az akkumulátor töltöttsége 50%.
+577;Az akkumulátor töltöttsége 49%.
+578;Az akkumulátor töltöttsége 48%.
+579;Az akkumulátor töltöttsége 47%.
+580;Az akkumulátor töltöttsége 46%.
+581;Az akkumulátor töltöttsége 45%.
+582;Az akkumulátor töltöttsége 44%.
+583;Az akkumulátor töltöttsége 43%.
+584;Az akkumulátor töltöttsége 42%.
+585;Az akkumulátor töltöttsége 41%.
+586;Az akkumulátor töltöttsége 40%.
+587;Az akkumulátor töltöttsége 39%.
+588;Az akkumulátor töltöttsége 38%.
+589;Az akkumulátor töltöttsége 37%.
+590;Az akkumulátor töltöttsége 36%.
+591;Az akkumulátor töltöttsége 35%.
+592;Az akkumulátor töltöttsége 34%.
+593;Az akkumulátor töltöttsége 33%.
+594;Az akkumulátor töltöttsége 32%.
+595;Az akkumulátor töltöttsége 31%.
+596;Az akkumulátor töltöttsége 30%.
+597;Az akkumulátor töltöttsége 29%.
+598;Az akkumulátor töltöttsége 28%.
+599;Az akkumulátor töltöttsége 27%.
+600;Az akkumulátor töltöttsége 26%.
+601;Az akkumulátor töltöttsége 25%.
+602;Az akkumulátor töltöttsége 24%.
+603;Az akkumulátor töltöttsége 23%.
+604;Az akkumulátor töltöttsége 22%.
+605;Az akkumulátor töltöttsége 21%.
+606;Az akkumulátor töltöttsége 20%.
+607;Az akkumulátor töltöttsége 19%.
+608;Az akkumulátor töltöttsége 18%.
+609;Az akkumulátor töltöttsége 17%.
+610;Az akkumulátor töltöttsége 16%.
+611;Az akkumulátor töltöttsége 15%.
+612;Az akkumulátor töltöttsége 14%.
+613;Az akkumulátor töltöttsége 13%.
+614;Az akkumulátor töltöttsége 12%.
+615;Az akkumulátor töltöttsége 11%.
+616;Az akkumulátor töltöttsége 10%.
+617;Az akkumulátor töltöttsége 9%.
+618;Az akkumulátor töltöttsége 8%.
+619;Az akkumulátor töltöttsége 7%.
+620;Az akkumulátor töltöttsége 6%.
+621;Az akkumulátor töltöttsége 5%.
+622;Az akkumulátor töltöttsége 4%.
+623;Az akkumulátor töltöttsége 3%.
+624;Az akkumulátor töltöttsége 2%.
+625;Az akkumulátor töltöttsége 1%.
+626;Az akkumulátor töltöttsége 0%.
+629;Sajnálom, nem látom önt. Kérem, mondja azt, hogy „Itt vagyok”, és folytatom a keresést.
+630;Üdvözli a Mova robotporszívó! Kérem, nyissa fel a fedelet, olvassa be a QR-kódot, és töltse le az alkalmazást a további műveletekhez.
+631;Üdvözli a Trover robotporszívó! Kérem, nyissa fel a fedelet, olvassa be a QR-kódot, és töltse le az alkalmazást a további műveletekhez.
+632;A hangasszisztens nyelvének átváltása folyamatban. Körülbelül 30 másodpercet vesz igénybe.
+633;A nyelvváltás sikertelen. Kérem, menjen a beállításokhoz, és próbálja újra.
+634;Portartály szőrtömörítés indítása.
+636;A felmosópad kicsit koszos lett. Kérem, vigye vissza a robotot a dokkolóra, hogy automatikusan megtisztítsa.
+638;Kiegészítő ürítés indítása.
+639;Kérem, szerelje be a mosódeszka szűrőjét.
+641;Készen állok. Próbálja meg azt mondani a robotnak: „Szia Mova, indítsd el a takarítást”.
+642;Próbálja meg azt mondani a robotnak: „Szia Mova, növeld a szívóerőt”.
+643;Próbálja meg azt mondani a robotnak: „Szia Mova, növeld a felmosópad nedvességét”.
+644;Próbálja meg azt mondani a robotnak: „Szia Mova, porszívózz és moss fel”, a módváltáshoz.
+645;Próbálja meg azt mondani a robotnak: „Szia Mova, moss fel”, a módváltáshoz.
+646;Próbálja meg azt mondani a robotnak: „Szia Mova, gyere ide takarítani”, a helyi tisztítás elindításához.
+647;Próbálja meg azt mondani a robotnak: „Szia Mova, porszívózás után felmosás”, a módváltáshoz.
+648;Próbálja meg azt mondani a robotnak: „Szia Mova, indítsd el a takarítást”, a teljes takarítás elindításához.
+658;A vízkőgátló modul lejárt. Kérem, cserélje ki időben.
+659;Sajnálom, nem értettem. Mondhatja nekem, hogy „Szia Mova, milyen készségeid vannak?”, hogy megismerje a képességeimet.
+660;Sajnálom, nem értettem. Mondhatja nekem, hogy „Szia Truver, milyen készségeid vannak?”, hogy megismerje a képességeimet.
+661;A bázisállomás aljának tisztítása. A folyamat körülbelül 45-60 másodpercet vesz igénybe.
+662;Elektrolizált víz készítése és a felmosópad tisztításának indítása.
+663;Többször érzékeltem, hogy a mosódeszka vízszintje rendellenes. Kérem, tisztítsa meg a szűrőt és az alsó tálcát, majd indítsa újra a feladatot.
+664;Próbálja meg azt mondani a robotnak: „Szia Truver, indítsd el a takarítást”.
+665;Készen állok. Próbálja meg azt mondani a robotnak: „Szia Truver, indítsd el a takarítást”.
+666;Próbálja meg azt mondani a robotnak: „Szia Truver, növeld a szívóerőt”.
+667;Próbálja meg azt mondani a robotnak: „Szia Truver, növeld a felmosópad nedvességét”.
+668;Próbálja meg azt mondani a robotnak: „Szia Truver, porszívózás után felmosás”, a módváltáshoz.
+669;Próbálja meg azt mondani a robotnak: „Szia Truver, porszívózz és moss fel”, a módváltáshoz.
+670;Próbálja meg azt mondani a robotnak: „Szia Truver, gyere ide takarítani”, a helyi tisztítás elindításához.
+671;Próbálja meg azt mondani a robotnak: „Szia Truver, porszívózás után felmosás”, a módváltáshoz.
+672;Próbálja meg azt mondani a robotnak: „Szia Truver, indítsd el a takarítást”, a teljes takarítás elindításához.
+673;A mechanikus kar valószínűleg felcsavarodott. Kérem, tisztítsa meg, majd indítsa újra a készüléket.
+677;Nem érhető el a kijelölt terület. Kérem, próbálja meg törölni az útvonalon lévő tiltott zónákat vagy a nem járható küszöböket.
+678;Az útvonal blokkolva. Kérem, próbálja meg törölni a tiltott zónákat vagy a nem járható küszöböket, vagy vigye el a robotot erről a területről.
+679;A robot tiltott zónában vagy nem járható küszöbön van. Kérem, vigye el a robotot erről a területről.
+681;Rendben, Gazdám, folytatom a takarítást.
+682;A felmosópad tartója leállt.
+683;A felmosópad tartója nincs felszerelve. Kérem, szerelje fel a felmosót, és próbálja újra.
+s684;Macskanyávogás
+s685;Kutyaugatás
+s686;Lépések
+s687;Macskadorombolás
+s688;Fényképezés hang
+689;Kezdem a portartály és a porzsák szárítását.
+690;A portartály és a porzsák szárítása szünetel.
+694;Próbálja meg azt mondani a robotnak: „Szia Mova, indítsd el a takarítást”.
