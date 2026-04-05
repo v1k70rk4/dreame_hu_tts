@@ -41,7 +41,7 @@ Futtasd az alábbi parancsot a Developer Tools / Services alatt (példa a Noémi
 service: dreame_vacuum.vacuum_install_voice_pack
 data:
   url: >-
-    [https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice](https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice)
+    https://raw.githubusercontent.com/v1k70rk4/dreame_hu_tts/main/dreame_voicepack_hu/noemi_dreame_hu_voice
   lang_id: hu
   md5: "2f69f5bd66fd7199353169efaf05ed92"
   size: 15148480
